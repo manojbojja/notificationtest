@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Carnival.startEngine(getApplicationContext(), "60c5c679faf4cb5ff2f80f408ad778ac290953de");
+        Carnival.startEngine(getApplicationContext(), "");
 
         NotificationConfig config = new NotificationConfig();
         config.setSmallIcon(R.drawable.ic_stat_notification);
